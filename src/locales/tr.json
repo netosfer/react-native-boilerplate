@@ -1,0 +1,9 @@
+{
+    "login_title": "Hesabınızı bağlayın",
+    "login_subtitle": "Giriş bilgilerinizi kimseyle paylaşmayın",
+    "server_ip_address": "Sunucunuzun IP Adresi",
+    "username": "Kullanıcı Adınız",
+    "password": "Şifreniz",
+    "error_message": "Lütfen bilgileri kontrol edin ve yeniden deneyin.",
+    "login": "Giriş Yap"
+}
