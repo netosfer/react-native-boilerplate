@@ -43,17 +43,6 @@ function Login({ navigation, setIsLoggedIn }) {
       <Alert visible={error} message={ t('error_message') } type="danger" onError={handleCloseAlert} />
       <View style={styles.login_box}>
         <Input
-          placeholder={ t('server_ip_address' )}
-          placeholderTextColor={colors.textOnPrimaryLow}
-          value={server}
-          inputContainerStyle={styles.login_inputs}
-          inputStyle={{
-            color: colors.textOnPrimary,
-            fontFamily: fonts.primary.normal
-          }}
-          onChangeText={(text) => setServer(text)}
-        />
-        <Input
           placeholder={ t('username' )}
           placeholderTextColor={colors.textOnPrimaryLow}
           value={username}

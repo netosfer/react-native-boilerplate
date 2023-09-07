@@ -16,7 +16,7 @@ class Home extends Component {
     return(
       <View style={styles.container}>
         <Text>
-          Hi Guys!
+          Homepage
         </Text>
       </View>
     );
